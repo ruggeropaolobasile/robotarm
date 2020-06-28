@@ -194,7 +194,8 @@ void showNewData(String message) {
   
       Serial.print("comando finecorsa grado:");Serial.println(gradiMotore3Min);}
       
-      servo03.write(gradiMotore);
+      servo3PPos = servoMotion(gradiMotore,1000 , 3); 
+
       break;
    
     
